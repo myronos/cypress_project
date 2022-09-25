@@ -16,5 +16,5 @@ it.only('Using get and find & eq', () =>{
   cy.viewport('macbook-15') // Set viewport to 375px x 667px
   cy.visit('https://docs.cypress.io/api/commands/eq')
   cy.get('div').find('nav').find('ul>li').find('a').eq(1)
-  cy.get('.scrollactive-nav > :nth-child(1) > .block').click()
+  cy.get('.scrollactive-nav > :nth-child(1) > .block').click()//fdsfsfsd
 });
