@@ -14,7 +14,7 @@ it('Using get and find & eq', () =>{
 it.only('Using get and find & eq', () =>{
   cy.viewport(1440, 900) // Set viewport to 550px x 750px
   cy.viewport('macbook-15') // Set viewport to 375px x 667px
-  cy.visit('https://docs.cypress.io/api/commands/eq')
+  cy.visit('https://docs.cypress.io/api/commands/eq')//fdfs
   cy.get('div').find('nav').find('ul>li').find('a').eq(1)
   cy.get('.scrollactive-nav > :nth-child(1) > .block').click()//fdsfsfsd
 });
