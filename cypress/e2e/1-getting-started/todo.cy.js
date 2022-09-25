@@ -17,4 +17,5 @@ it.only('Using get and find & eq', () =>{
   cy.visit('https://docs.cypress.io/api/commands/eq')//fdfs
   cy.get('div').find('nav').find('ul>li').find('a').eq(1)
   cy.get('.scrollactive-nav > :nth-child(1) > .block').click()//fdsfsfsd
+  cy.get('.scrollactive-nav > :nth-child(1) > .block').click()//fdsfsfsd
 });
